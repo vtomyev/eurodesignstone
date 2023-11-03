@@ -1,0 +1,9 @@
+#!/bin/sh
+
+USER=eurodesignstone
+HOST=198.54.126.46
+DIR=public_html
+
+hugo && rsync -avz -v --delete public/ ${USER}@${HOST}:~/${DIR}
+
+exit

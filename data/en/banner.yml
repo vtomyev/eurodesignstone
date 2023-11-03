@@ -1,0 +1,12 @@
+############################### Banner ################################
+banner:
+  enable : true
+  #bg_image_webp : "images/backgrounds/hero-area.webp"
+  bg_image : "images/backgrounds/tile_shower_white.jpg"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "Quality work done in your home"
+  content : "We strive to achieve the best possible quality while valuing our customers time."
+  button:
+    enable : true
+    label : "See our work"
+    link : "#portfolio"

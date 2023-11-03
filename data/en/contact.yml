@@ -1,0 +1,27 @@
+############################## Contact #############################
+contact:
+  enable : true
+  title : Contact Us
+  subtitle : Contact Details
+  content : We provide tile and stone installation services in the Greater Seattle area. Please feel free to contact us via email, phone or by filling out the contact form.
+
+  # Contact details
+  contact_list:
+
+    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      info : "Phone: +1 253-886-0784"
+      
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Email: info@eurodesignstonellc.com"
+
+
+  # Contact form
+  contact_form:
+    enable : true
+    form_action : "https://formspree.io/f/moqbeggj" #contact form works with https://formspree.io
+    method: "POST"
+    name : "Your Name"
+    email : "Your Email"
+    subject : "Subject"
+    message : "Message"
+    submit : "Submit"

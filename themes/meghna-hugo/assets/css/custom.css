@@ -1,0 +1,23 @@
+.testimonial:before {background: rgba(252,252,252,0.7)}
+.navigation {
+    background-color: #211A1E;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .tab-post-nav {
+    background-color: #fcfcfc;
+  }
+
+  .tab-post-nav li.active a {
+    border-top: 3px solid #6cb670;
+    background-color: #ffffff;
+    color: #6CB670;
+  }
+  .tab-post-nav li a {
+    border-top: 3px solid transparent;
+    color: #ffffff;
+    display: block;
+    padding: 13px 18px;
+    text-align: center;
+  }  
