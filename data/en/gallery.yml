@@ -1,0 +1,12 @@
+#################################### gallery ###############################
+gallery:
+  enable : false
+  title : Our Work
+  gallery_item :
+    # gallery item loop
+    - name : Shower
+      image : images/gallery/0-02-02-0a22a54b9698fb7c916924c02132b90b35a20db3b0dd6fd8b4e01910f685b4c8_1f8d5c5f907042.jpg
+      image_webp : images/gallery/0-02-02-0a22a54b9698fb7c916924c02132b90b35a20db3b0dd6fd8b4e01910f685b4c8_1f8d5c5f907042.jpg
+      categories : ["showers"]
+      content : Just a test
+      link : "https://themefisher.com"

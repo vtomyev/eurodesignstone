@@ -1,0 +1,28 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.badge.badge.enable }}
+{{ with $data.badge.badge }}
+{{"<!-- Start badge -->" | safeHTML}}
+<section id="badge" class="testimonial section">
+	<div class="container text-center">
+		<div class="row">
+				{{"<!-- badge wrapper -->" | safeHTML}}
+				
+					{{ range .badge_item }}
+					{{"<!-- badge single -->" | safeHTML}}
+
+						{{"<!-- client photo -->" | safeHTML}}
+						<div class="badge-thumb col">
+							<a href="{{ .link }}" target="_blank">
+							<img src='{{ .image_webp | absURL }}' alt="{{ .name }}">
+						    </a>
+						</div>
+					{{"<!-- /badge single -->" | safeHTML}}
+					{{ end }}
+				
+		</div>
+	</div>
+</section>
+{{"<!-- /badge -->" | safeHTML}}
+{{ end }}
+{{ end }}

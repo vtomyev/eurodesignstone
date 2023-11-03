@@ -1,0 +1,27 @@
+badge:
+  enable : true
+  badge_item :
+    # badge item loop
+    - image_webp : images/badges/toprated.webp
+      link: https://www.homeadvisor.com/rated.EuroDesignStoneLLC.36564446.html
+
+    # badge item loop
+    - image_webp : images/badges/5year.webp
+      link: https://www.homeadvisor.com/rated.EuroDesignStoneLLC.36564446.html
+    
+    # badge item loop
+    - image_webp : images/badges/50reviews.webp
+      link: https://www.homeadvisor.com/rated.EuroDesignStoneLLC.36564446.html
+
+    # badge item loop
+    - image_webp : images/badges/boha-2020.webp
+      link: https://www.homeadvisor.com/rated.EuroDesignStoneLLC.36564446.html
+
+    # badge item loop
+    - image_webp : images/badges/elite.webp
+      link: https://www.homeadvisor.com/rated.EuroDesignStoneLLC.36564446.html
+
+    # badge item loop
+    - image_webp : images/badges/soap.webp
+      link: https://www.homeadvisor.com/rated.EuroDesignStoneLLC.36564446.html
+    
