@@ -9,4 +9,4 @@ banner:
   button:
     enable : true
     label : "See our work"
-    link : "#portfolio"
+    link : "#blog"

@@ -1,0 +1,88 @@
+.testimonial:before {
+  background: rgba(252, 252, 252, 0.7)
+}
+
+.navigation {
+  background-color: #211A1E;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.tab-post-nav {
+  background-color: #fcfcfc;
+}
+
+.tab-post-nav li.active a {
+  border-top: 3px solid #6cb670;
+  background-color: #ffffff;
+  color: #6CB670;
+}
+
+.tab-post-nav li a {
+  border-top: 3px solid transparent;
+  color: #ffffff;
+  display: block;
+  padding: 13px 18px;
+  text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255, 1);
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+
+.lightbox-gallery {
+  background-color:rgb(244, 244, 244);
+  color: #000;
+  overflow-x: hidden
+}
+
+.lightbox-gallery p {
+  color: #fff
+}
+
+.lightbox-gallery h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: #fff
+}
+
+@media (max-width:767px) {
+  .lightbox-gallery h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px
+  }
+}
+
+.lightbox-gallery .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px
+}
+
+.lightbox-gallery .intro p {
+  margin-bottom: 0
+}
+
+.lightbox-gallery .photos {
+  padding-bottom: 20px
+}
+
+.lightbox-gallery .item {
+  padding-bottom: 30px
+}
+
+.post-block{
+  background-color:transparent;
+  border: solid 1px;
+}
+
+.badge-thumb img {
+  border-radius: 50%;
+  margin: 0 auto;
+  max-width: 115px;
+  width: 100%;
+}

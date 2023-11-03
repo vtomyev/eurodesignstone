@@ -3,9 +3,9 @@ cta:
   enable : false
   bg_image : "images/backgrounds/bg-white-wall.jpg"
   bg_image_webp : "images/backgrounds/bg-white-wall.webp"
-  title : "Great Design & Incredible Features"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+  title : "Great Quality & Fast Turnout"
+  content : "Customer satisfaction is our priority. We will complete your project in a timely manner with great quality."
   button:
     enable : true
-    label : "Start a project with us"
+    label : "Get A Free Estimate Now"
     link : "#contact"

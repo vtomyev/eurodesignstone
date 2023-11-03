@@ -22,6 +22,18 @@ contact:
     method: "POST"
     name : "Your Name"
     email : "Your Email"
-    subject : "Subject"
-    message : "Message"
+    address: "Your full home address"
+    phone: "Your phone number"
+    # Drop down menu
+    room :
+      - "Bathroom"
+      - "Kitchen"
+      - "Laundry"
+      - "Other"
+    # Drop down menu
+    project :
+      - "Tile Install/Repair"
+      - "Grout Replace/Repair"
+      - "Tile/Grout Cleaning"
+    message : "Briefly describe your project"
     submit : "Submit"

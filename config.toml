@@ -1,7 +1,7 @@
 ################################# Default configuration ###################
 baseURL = "https://eurodesignstonellc.com"
 title = "Euro Design Stone"
-theme = "meghna-hugo"
+theme = ["meghna-hugo", "hugo-shortcode-gallery"]
 # post pagination
 paginate = "6"
 # post excerpt
@@ -39,67 +39,35 @@ link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
+[[params.plugins.js]]
+link = "https://www.google.com/recaptcha/api.js"
 
 ################### English Navigation ########################
 
 [[Languages.en.menu.main]]
-name = "portfolio"
-url = "#portfolio"
-weight = 2
-
-
-[[Languages.en.menu.main]]
-name = "contact"
-url = "#contact"
+name = "GALLERY"
+url = "#blog"
 weight = 3
 
-
 [[Languages.en.menu.main]]
-name = "home"
-url = "#"
-weight = 1
-
-
-################### French Navigation ########################
-[[Languages.fr.menu.main]]
-name = "sur"
-url = "#about"
-weight = 1
-
-[[Languages.fr.menu.main]]
-name = "un service"
+name = "SERVICES"
 url = "#services"
 weight = 2
 
-[[Languages.fr.menu.main]]
-name = "portefeuille"
-url = "#portfolio"
-weight = 3
 
-[[Languages.fr.menu.main]]
-name = "équipe"
-url = "#team"
+[[Languages.en.menu.main]]
+name = "CONTACT 253-886-0784"
+url = "#contact"
 weight = 4
 
-[[Languages.fr.menu.main]]
-name = "tarification"
-url = "#pricing"
-weight = 5
 
-[[Languages.fr.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
+[[Languages.en.menu.main]]
+name = "HOME"
+url = "#banner"
+weight = 1
 
-[[Languages.fr.menu.main]]
-name = "contact"
-url = "#contact"
-weight = 7
 
-[[Languages.fr.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
+
 
 ############################# Default Parameters ##########################
 [params]
@@ -136,25 +104,8 @@ icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
 link = "facebook.com"
 
 [[params.social]]
-icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
 icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
 link = "#"
-
-[[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
 
 ################################ English Language ########################
 [Languages.en]
@@ -163,6 +114,7 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2022 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+attribution = "<a href='https://www.flaticon.com/free-icons/user' title='user icons'>User icons created by Smashicons - Flaticon</a>"
 
 ################################ France Language ########################

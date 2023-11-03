@@ -144,3 +144,15 @@ jQuery(function ($) {
 	});
 
 });
+
+window.onbeforeunload = () => {
+	for(const form of document.getElementsByTagName('form')) {
+	  form.reset();
+	}
+  }
+
+ 
+function onSubmit(token) {
+	document.getElementById("contact-form").submit();
+  }
+

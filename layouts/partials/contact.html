@@ -36,23 +36,53 @@
 			{{"<!-- Contact Form -->" | safeHTML}}
 			{{ if .contact_form.enable }}
 			{{ with .contact_form }}
+			</script>
 			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
 				<form id="contact-form" class="form-meghna" method="post" action="{{ .form_action }}" role="form">
 					<div class="form-group">
-						<input type="text" placeholder="{{ .name }}" class="form-control" name="name" id="name">
+						<input type="text" placeholder="{{ .name }}" class="form-control" name="name" id="name" required="">
 					</div>
 					<div class="form-group">
-						<input type="email" placeholder="{{ .email }}" class="form-control" name="email" id="email">
+						<input type="email" placeholder="{{ .email }}" class="form-control" name="email" id="email" required="">
 					</div>
 					<div class="form-group">
-						<input type="text" placeholder="{{ .subject }}" class="form-control" name="subject" id="subject">
+						<input type="phone" placeholder="{{ .phone }}" class="form-control" name="phone" id="phone" required="">
 					</div>
+					<fieldset id="form-group fs-frm-selects">
+						<label for="room">Select the room</label>
+						<select class="form-control" name="room" id="room" required="">
+						  <option value="" selected="" disabled="">Choose</option>
+						  {{ range .room }}
+						  <option value="{{ . }}">{{ . }}</option>
+						  {{ end }}
+						</select>
+						<div class="form-group">
+						
+						</div>
+						<label for="project">Select the project type</label>
+						<select class="form-control" name="project" id="prject" required="">
+						  <option value="" selected="" disabled="">Choose</option>
+						  {{ range .project }}
+						  <option value="{{ . }}">{{ . }}</option>
+						  {{ end }}
+						</select>
+					</fieldset>
+
+					<div class="form-group">
+						
+					</div>
+
 					<div class="form-group">
 						<textarea rows="6" placeholder="{{ .message }}" class="form-control" name="message" id="message"></textarea>
 					</div>
 					<div id="cf-submit">
-						<button type="submit" id="contact-submit" class="btn btn-transparent btn-block"
-							value="{{ .submit }}">{{ .submit }}</button>
+						<button type="submit" 
+								id="contact-submit" 
+								class="btn btn-transparent btn-block g-recaptcha"
+								data-sitekey="6LeB1QgjAAAAAJmPDxGUFPhxqT31kp2mMxrAv5C-"
+								data-callback="onSubmit"
+								data-action="submit"
+								value="{{ .submit }}">{{ .submit }}</button>
 					</div>
 				</form>
 			</div>

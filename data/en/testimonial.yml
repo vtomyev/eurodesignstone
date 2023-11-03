@@ -6,21 +6,38 @@ testimonial:
   testimonial_item :
     # testimonial item loop
     - name : Maureen M.
-     # image : images/client/client-1.jpg
+      image : https://cdn-icons-png.flaticon.com/512/149/149071.png
      # image_webp : images/client/client-1.webp
       date : 9/16/2022 
       content : Ruslan did a great job regrouting our shower tile. Completed the work quickly and efficiently and at reasonable cost. We highly recommend him.
 
     # testimonial item loop
-    - name : Mark Dinn
-      image : images/client/client-2.jpg
-      image_webp : images/client/client-2.webp
-      date : Dec 26, 2018
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    - name : Mj H.
+      image : https://cdn-icons-png.flaticon.com/512/149/149071.png
+     # image_webp : images/client/client-2.webp
+      date : Nov 7, 2022
+      content : Knowledgeable, Professional, Quality work, on time, great clean up and excellent experience.
       
     # testimonial item loop
-    - name : Lemos Kail
-      image : images/client/client-1.jpg
-      image_webp : images/client/client-1.webp
-      date : Dec 26, 2018
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    - name : Charlene M.
+      image : https://cdn-icons-png.flaticon.com/512/149/149071.png
+      date : Oct 27, 2022
+      content : Excellent work. Shower floor grouting was failing. After assessing the flooring underneath the tile, we decided to replace the tile. Ruslanâ s work was exceptional, the price was very reasonable, and the project was completed with little disruption. All aspects were explained as the project progressed. The clean-up was complete. In fact, Ruslan applied calling beyond the scope of this project. I unequivocally recommend Euro Design Stone!
+
+      # testimonial item loop
+    - name : Pamela T.
+      image : https://cdn-icons-png.flaticon.com/512/149/149071.png
+      date : Jun 16, 2022
+      content : Prompt, skilled,reliable,reasonable cost, and pleasant.
+
+      # testimonial item loop
+    - name : Victor L.
+      image : https://cdn-icons-png.flaticon.com/512/149/149071.png
+      date : May 19, 2022
+      content : Ruslan did a great job and installed tile for two bathrooms in my house. We are very pleased with his work. I would suggest Ruslan to my family for tile work. Ruslan is honest, hard working and friendly. No drama. 
+
+      # testimonial item loop
+    - name : Wendy S.
+      image : https://cdn-icons-png.flaticon.com/512/149/149071.png
+      date : Mat 16, 2022
+      content : I’m so happy with the work that was done and Rus went above and beyond to make everything look beautiful!! I highly recommend him and his great work. Thank you Rus!!!

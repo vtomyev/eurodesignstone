@@ -47,3 +47,7 @@ ExpiresByType application/javascript "access plus 1 year"
 ExpiresByType application/pdf "access plus 1 year"
 ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
 </IfModule>
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://eurodesignstonellc.com/$1 [R,L]
